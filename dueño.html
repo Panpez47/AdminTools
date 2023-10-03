@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dueños</title>
+    <link rel="stylesheet" href="css/diseñoform.css">
+</head>
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+            <!------------------------------------------------------------------------------------------>
+            
+            <!------------------------------------------------------------------------------------------>
+              <div class="Formulario">
+              <div class="txt-container">
+              <h1>Registro de Dueños</h1>
+              <hr>
+              </div>
+            <!------------------------------------------------------------------------------------------>
+            <div class="Preguntas-Content">
+            <p>Escribe los datos necesarios para que los dueños queden registrados:</p> <br>
+              <form action="registrar_dueño.php" method="post">
+                      <label for="id_tienda">Id Tienda</label> <br>
+                      <input type="number" name="id_tienda"required>
+                      <br>
+                      <label for="nombre">Nombre</label> <br>
+                      <input type="text" name="nombre"required>
+                      <br>
+                      <label for="apellido">Apellidos</label> <br>
+                      <input type="text" name="apellido"required>
+                      <br>
+                      <label for="correo">Correos</label> <br>
+                      <input type="email" name="correo"required>
+                      <br>
+                      <label for="contraseña">Contraseña</label> <br>
+                      <input type="text" name="contraseña" required>
+                      <br>
+                      <input type="submit" name="registrar" required>
+                  </form>
+            </div>
+            <!------------------------------------------------------------------------------------------>
+    </div >
+
+</body>
+</html>
